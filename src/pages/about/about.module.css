@@ -1,0 +1,224 @@
+.about {
+  width: 100vw;
+  /* tam ekran eni */
+  height: auto;
+  /* tam ekran hündürlüyü */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* artıq hissələri gizlə */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 480px;
+}
+
+.swiperslide {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiperslide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.customPrevButton {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+  color: #fff;
+  /* background-color: rgb(105, 105, 105); */
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.customNextButton {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+  color: #fff;
+  /* background-color: rgb(105, 105, 105); */
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+
+
+
+.info {
+  padding: 20px 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.info h1 {
+  font-size: 30px;
+}
+
+
+
+
+.text {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+
+
+}
+
+.frame {
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 28%;
+  height: 320px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flame2 {
+  width: 97%;
+  height: 97%;
+  border: 3px solid white;
+}
+
+.title {
+  width: 100%;
+}
+
+.image {
+  width: 66%;
+  height: 320px;
+  border: 1px solid white;
+  object-fit: cover;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+  height: 320px;
+}
+
+
+.middleText {
+  text-align: center;
+  width: 70%;
+  font-size: 18px;
+  margin: 30px 0px;
+}
+
+
+
+
+.images {
+  padding: 20px 0px;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 80%;
+  margin-top: 50px;
+
+}
+
+.images_img {
+  flex: 1 1 calc(50% - 20px);
+  /* hər biri ekranın yarısı olsun */
+  object-fit: cover;
+  width: 100%;
+}
+
+.images_img:nth-child(odd) {
+  height: 350px;
+}
+
+/* Sağ şəkillər */
+.images_img:nth-child(even) {
+  height: 420px;
+}
+
+
+/* media query */
+
+
+@media (max-width: 576px) {
+
+  .text {
+    flex-direction: column;
+
+  }
+
+  .frame {
+
+    width: 100%;
+  }
+
+  .flame2 {
+    width: 98%;
+    height: 96%;
+  }
+
+  .image {
+    width: 100%;
+
+  }
+
+  .images {
+  width: 100%;
+ 
+}
+
+.images_img {
+  width: 100%;
+}
+
+.images_img:nth-child(odd) {
+  height: 350px;
+}
+
+/* Sağ şəkillər */
+.images_img:nth-child(even) {
+  height: 350px;
+}
+
+}

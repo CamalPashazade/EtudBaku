@@ -1,0 +1,22 @@
+.banner
+{
+  width: 100vw;   /* tam ekran eni */
+  height: 100vh;  /* tam ekran hündürlüyü */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* artıq hissələri gizlə */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+
+.bannerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}

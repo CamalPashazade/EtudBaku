@@ -1,0 +1,26 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+  gap: 10px;
+  color: #333;
+
+}
+
+
+
+
+.loading-icon {
+  animation: spin 1s linear infinite;
+  width: 40px;
+  height: 40px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

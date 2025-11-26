@@ -1,0 +1,207 @@
+.home {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* videonu ekranın hər tərəfini dolduracaq şəkildə kəsib göstərir */
+}
+
+
+.customVideo::-webkit-media-controls-timeline,
+.customVideo::-webkit-media-controls-current-time-display,
+.customVideo::-webkit-media-controls-time-remaining-display,
+.customVideo::-webkit-media-controls-mute-button,
+.customVideo::-webkit-media-controls-volume-slider,
+.customVideo::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
+
+
+
+.info {
+  padding: 20px 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.info .header {
+  width: 100%;
+  display: flex;
+  font-size: 24px;
+
+  justify-content: space-around;
+}
+
+
+
+
+.text {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-direction: row;
+}
+
+.text:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.frame {
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 28%;
+  height: 320px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flame2 {
+  width: 97%;
+  height: 97%;
+  border: 3px solid white;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title {
+  width: 100%;
+}
+
+.image {
+  width: 66%;
+  height: 320px;
+  border: 1px solid white;
+  object-fit: cover;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+  height: 320px;
+}
+
+
+
+.footer
+{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+
+.drinks_food
+{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+
+.view_menu
+{
+  position: absolute;
+  margin-top: 180px;
+}
+
+.view_menu p{
+  font-size: 18px;
+  color: white;
+}
+
+
+.view_menu button{
+  padding: 4px 24px;
+   font-size: 16px;
+   border: 1px solid ivory;
+   cursor: pointer;
+   background-color: transparent;
+  color: white;
+  transition: ease-in-out 1s;
+
+}
+
+.view_menu button:hover
+{
+  background-color:#fcdd6f ;
+  color: black;
+}
+
+/* media query */
+
+
+@media (max-width: 576px) {
+
+  .text {
+
+      flex-direction: column !important; 
+
+  }
+
+  .info .header {
+    font-size: 16px;
+  }
+
+
+  .frame {
+
+    width: 100%;
+  }
+
+  .flame2 {
+    width: 98%;
+    height: 96%;
+    font-size: 16px;
+  }
+
+  .image {
+    width: 100%;
+
+  }
+
+  .images {
+    width: 100%;
+
+  }
+
+
+
+
+
+
+
+}
