@@ -15,7 +15,7 @@ const Header = () => {
     { path: "/about", label: "About Us" },
     { path: "/menu", label: "Menu" },
     { path: "/location", label: "Location" },
-    { path: "/delivery", label: "Delivery" },
+    {  path: "https://wolt.com/az/aze/baku/restaurant/etud-baku", label: "Delivery" },
   ];
 
   //  Scroll zamanı header-in rəngini dəyişmək
