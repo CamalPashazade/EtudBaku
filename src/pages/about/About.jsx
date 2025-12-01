@@ -33,8 +33,8 @@ const images = [
 
 
 const about = [
-  { id: 1, title: "Live Music at ETUD", text: "Jazz is our foundation – but it doesn’t stop there. At ETUD, we host an evolving lineup of live performances, from classic jazz to funk, soul, groove, rock, and experimental nights. Our musicians are some of the most respected players in the country – and when they take the stage, the room listens.", img: '/src/assets/about/about_1.jpg' },
-  { id: 2, title: "Weekly Highlights:", text: "Tuesdays & Wednesdays – Jazz sessions with rotating artists Fridays & Saturdays – Live bands & genre nights Special Events – Debut shows, tribute nights & surprise guests Every set is live. Every moment is real.", img: '/src/assets/about/about_2.jpeg' },
+  { id: 1, title: "Live Music at ETUD", text: "Jazz is our foundation – but it doesn’t stop there. At ETUD, we host an evolving lineup of live performances, from classic jazz to funk, soul, groove, rock, and experimental nights. Our musicians are some of the most respected players in the country – and when they take the stage, the room listens.", img: '/about/about_1.jpg' },
+  { id: 2, title: "Weekly Highlights:", text: "Tuesdays & Wednesdays – Jazz sessions with rotating artists Fridays & Saturdays – Live bands & genre nights Special Events – Debut shows, tribute nights & surprise guests Every set is live. Every moment is real.", img: '/about/about_2.jpeg' },
 
 ];
 
