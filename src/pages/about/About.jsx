@@ -15,18 +15,18 @@ import 'swiper/css/effect-creative';
 
 
 const swiperimages = [
-  { id: 1, img: '/public/menu/etud-big-burger-etud-cafe-and-bar4.avif' },
-  { id: 2, img: '/public/menu/etudbaku-music-food-drinks1.jpg' },
-  { id: 3, img: '/public/menu/etudbaku-music-food-drinks2.jpg' },
-  { id: 4, img: '/public/menu/etudbaku-music-food-drinks3.jpg' },
+  { id: 1, img: '/menu/etud-big-burger-etud-cafe-and-bar4.avif' },
+  { id: 2, img: '/menu/etudbaku-music-food-drinks1.jpg' },
+  { id: 3, img: '/menu/etudbaku-music-food-drinks2.jpg' },
+  { id: 4, img: '/menu/etudbaku-music-food-drinks3.jpg' },
 ];
 
 
 const images = [
-  { id: 1, img: '/public/menu/etud-big-burger-etud-cafe-and-bar4.avif' },
-  { id: 2, img: '/public/menu/etudbaku-music-food-drinks1.jpg' },
-  { id: 3, img: '/public/menu/etudbaku-music-food-drinks2.jpg' },
-  { id: 4, img: '/public/menu/etudbaku-music-food-drinks3.jpg' },
+  { id: 1, img: '/menu/etud-big-burger-etud-cafe-and-bar4.avif' },
+  { id: 2, img: '/menu/etudbaku-music-food-drinks1.jpg' },
+  { id: 3, img: '/menu/etudbaku-music-food-drinks2.jpg' },
+  { id: 4, img: '/menu/etudbaku-music-food-drinks3.jpg' },
 ];
 
 
