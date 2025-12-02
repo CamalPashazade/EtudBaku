@@ -1,7 +1,7 @@
 import styles from './menu.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, Autoplay, EffectFade, EffectCreative } from 'swiper/modules';
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 import 'swiper/css';
@@ -264,9 +264,22 @@ const menuItems = {
   ]
 };
 
+
 const Menu = () => {
   const [enableNavigation, setEnableNavigation] = useState(true);
   const [activeTab, setActiveTab] = useState(2);
+
+  // Ref əlavə edirik
+  const menuItemsRef = useRef(null);
+
+  const handleTabClick = (tabId) => {
+    setActiveTab(tabId);
+
+    // Kliklədikdə aşağıya scroll
+    if (menuItemsRef.current) {
+      menuItemsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <div className={styles.menu}>
@@ -296,20 +309,13 @@ const Menu = () => {
         ))}
       </Swiper>
 
-      {enableNavigation && (
-        <>
-          <div className={styles.customPrevButton}><FaArrowLeft /></div>
-          <div className={styles.customNextButton}><FaArrowRight /></div>
-        </>
-      )}
-
       {/* Tabs */}
       <div className={styles.tabs}>
         {tabs.map((tab) => (
           <button
             key={tab.id}
             className={`${styles.tabButton} ${activeTab === tab.id ? styles.activeTab : ''}`}
-            onClick={() => setActiveTab(tab.id)}
+            onClick={() => handleTabClick(tab.id)} // dəyişiklik burada
           >
             {tab.label}
           </button>
@@ -317,19 +323,16 @@ const Menu = () => {
       </div>
 
       {/* Menu Items */}
-      <div className={styles.menuItems}>
+      <div className={styles.menuItems} ref={menuItemsRef}>
         {menuItems[tabs.find(t => t.id === activeTab)?.key]?.map((item, index) => (
           <div key={index} className={styles.menuItem}>
             <h2>{item.name}</h2>
-
             <div>
               {item.description && <span className={styles.description}>{item.description}</span>}
               <span className={styles.price}>{item.price}</span>
             </div>
-
           </div>
         ))}
-
       </div>
     </div>
   );

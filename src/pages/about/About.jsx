@@ -70,12 +70,14 @@ const About = () => {
         ))}
       </Swiper>
 
-      {enableNavigation && (
+      {/* Arrows */}
+
+      {/* {enableNavigation && (
         <>
           <div className={styles.customPrevButton}><FaArrowLeft /></div>
           <div className={styles.customNextButton}><FaArrowRight /></div>
         </>
-      )}
+      )} */}
 
 
 

@@ -9,6 +9,7 @@ import Contact from './pages/contact/Contact';
 import Location from './pages/location/Location';
 import Buy_Tickets from './pages/buy_tickets/Buy_Tickets';
 import Delivery from './pages/delivery/Delivery';
+import NotFound from './components/notFound/NotFound';
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       {/* <Route path="/buytickets" element={<Buy_Tickets/>} /> */}
       <Route path="/delivery" element={<Delivery/>} />
+         <Route path="*" element={<NotFound/>} />
       
     </Routes>
       <Layout>

@@ -86,7 +86,7 @@ const Home = () => {
 
 
         <div className={styles.view_menu}>
-          <p>18px Click to see what we have to offer</p>
+          <p> Click to see what we have to offer</p>
 
       <Link to={'/menu'}>    <button>View Menu</button></Link>
         </div>
