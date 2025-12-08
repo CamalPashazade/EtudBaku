@@ -13,7 +13,7 @@ const about = [
 
 const footer_image = '/home/drinks.avif';
 
-
+const videoo ='/home/video/web(1).mp4';
 
 
 
@@ -28,8 +28,9 @@ const Home = () => {
         muted
       >
         <source
-           src="https://player.vimeo.com/progressive_redirect/playback/1128273437/rendition/1080p/file.mp4?loc=external&signature=011db33322e2ef7f9996308d7389bb541671ea4be92ec4b685f112d9bfeb36a4"
+          //  src="https://player.vimeo.com/progressive_redirect/playback/1128273437/rendition/1080p/file.mp4?loc=external&signature=011db33322e2ef7f9996308d7389bb541671ea4be92ec4b685f112d9bfeb36a4"
      
+          src={videoo}
           type="video/mp4"
         />
         <p>
