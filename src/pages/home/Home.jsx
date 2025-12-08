@@ -13,14 +13,14 @@ const about = [
 
 const footer_image = '/home/drinks.avif';
 
-const videoo ='/home/video/web(1).mp4';
+// const videoo ='https://dai.ly/x9v9k5w';
 
 
 
 const Home = () => {
   return (
     <div className={styles.home}>
-      <video
+      {/* <video
         className={styles.customVideo}
         controls
         autoPlay
@@ -30,7 +30,8 @@ const Home = () => {
         <source
           //  src="https://player.vimeo.com/progressive_redirect/playback/1128273437/rendition/1080p/file.mp4?loc=external&signature=011db33322e2ef7f9996308d7389bb541671ea4be92ec4b685f112d9bfeb36a4"
      
-          src={videoo}
+          // src={videoo}
+          src='https://dai.ly/x9v9k5w'
           type="video/mp4"
         />
         <p>
@@ -40,9 +41,15 @@ const Home = () => {
           <a href="/shared-assets/videos/flower.mp4"> MP4 </a>
           video.
         </p>
-      </video>
-
-
+      </video> */}
+      <iframe
+       className={styles.customVideo}
+        src="https://www.dailymotion.com/embed/video/x9v9k5w"
+        frameBorder="0"
+        allow="autoplay; fullscreen"
+        allowFullScreen
+    
+      ></iframe>
 
 
       {/* info */}
