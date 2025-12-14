@@ -20,7 +20,7 @@ const footer_image = '/home/drinks.avif';
 const Home = () => {
   return (
     <div className={styles.home}>
-      <video
+      {/*  <video
         className={styles.customVideo}
         controls
         autoPlay
@@ -41,19 +41,18 @@ const Home = () => {
           <a href="/shared-assets/videos/flower.mp4"> MP4 </a>
           video.
         </p>
-      </video>
+      </video> */}
 
-      {/* <div  className={styles.customVideo}>
-      <iframe
-      
-        src="https://www.dailymotion.com/embed/video/x9v9k5w"
-        frameBorder="0"
-        allow="autoplay; fullscreen"
-        allowFullScreen
-        
-    
-      ></iframe>
-      </div> */}
+      <div className={styles.customVideo}>
+<iframe
+  src="https://www.youtube.com/embed/kVVozv8S4Wg?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=kVVozv8S4Wg&playsinline=1"
+  title="YouTube video"
+  frameBorder="0"
+  allow="autoplay; fullscreen"
+  allowFullScreen
+></iframe>
+
+      </div>
 
       {/* info */}
 
@@ -102,7 +101,7 @@ const Home = () => {
         <div className={styles.view_menu}>
           <p> Click to see what we have to offer</p>
 
-      <Link to={'/menu'}>    <button>View Menu</button></Link>
+          <Link to={'/menu'}>    <button>View Menu</button></Link>
         </div>
 
 

@@ -32,18 +32,24 @@ position: relative;
   width: 100vw;   /* viewport-un tam eni */
   height: 100vh;  /* viewport-un tam hündürlüyü */
   overflow: hidden;
-  background-color: red;
+  /* background-color: red; */
  
  
 }
 
-.customVideo iframe{
+/* .customVideo iframe{ */
+  /* position: absolute; */
+  /* left: 0; */
+  /* width: 100vw; */
+  /* height: 100vh; */
+/* } */
+
+.customVideo iframe {
   position: absolute;
   left: 0;
   width: 100vw;
   height: 100vh;
 }
-
 
 
 
