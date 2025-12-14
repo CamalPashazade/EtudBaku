@@ -11,12 +11,12 @@
   position: relative;
 }
 
-.home video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* videonu ekranın hər tərəfini dolduracaq şəkildə kəsib göstərir */
-}
+/* .home video { */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* object-fit: cover; */
+/*  */
+/* } */
 
 
 .customVideo::-webkit-media-controls-timeline,
@@ -32,17 +32,10 @@ position: relative;
   width: 100vw;   /* viewport-un tam eni */
   height: 100vh;  /* viewport-un tam hündürlüyü */
   overflow: hidden;
-  /* background-color: red; */
- 
+
  
 }
 
-/* .customVideo iframe{ */
-  /* position: absolute; */
-  /* left: 0; */
-  /* width: 100vw; */
-  /* height: 100vh; */
-/* } */
 
 .customVideo iframe {
   position: absolute;
@@ -223,6 +216,12 @@ position: relative;
     width: 100%;
 
   }
+
+  .customVideo {
+
+  height: 70vh;  
+
+}
 
 
 

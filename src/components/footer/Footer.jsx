@@ -45,9 +45,9 @@ const Footer = () => {
           <h2>Connect</h2>
           <div className={styles.socialLinks}>
             <div className={styles.addres_info}>
-              <a href="https://www.instagram.com/etudbaku/" target="_blank"><FaInstagram /></a>
-              <a href="https://www.facebook.com/etudbaku/" target="_blank"><FaFacebook /></a>
-              <a href="https://www.youtube.com" target="_blank"><FaYoutube /></a>
+              <a href="https://www.instagram.com/etudbaku/" target="_blank"><FaInstagram className={styles.instagram} /></a>
+              <a href="https://www.facebook.com/etudbaku/" target="_blank"><FaFacebook className={styles.facebook} /></a>
+              <a href="https://www.youtube.com" target="_blank"><FaYoutube className={styles.youtube}  /></a>
             </div>
           </div>
         </div>

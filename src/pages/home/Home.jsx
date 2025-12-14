@@ -44,13 +44,13 @@ const Home = () => {
       </video> */}
 
       <div className={styles.customVideo}>
-<iframe
-  src="https://www.youtube.com/embed/kVVozv8S4Wg?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=kVVozv8S4Wg&playsinline=1"
-  title="YouTube video"
-  frameBorder="0"
-  allow="autoplay; fullscreen"
-  allowFullScreen
-></iframe>
+        <iframe
+          src="https://www.youtube.com/embed/kVVozv8S4Wg?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=kVVozv8S4Wg&playsinline=1"
+          title="YouTube video"
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        ></iframe>
 
       </div>
 

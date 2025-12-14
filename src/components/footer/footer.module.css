@@ -139,6 +139,11 @@ flex-direction: column;
    
 }
 
+.addres_info .instagram, .facebook, .youtube {
+  font-size: 22px;
+
+}
+
   .mobile{
     display: flex;
     align-items: start;
