@@ -1,6 +1,30 @@
 
 import { useNavigate } from "react-router-dom";
 import './menu.css';
+// Şəkilləri import et
+import burgersImg from "../../assets/menu_new/burgers.jpeg";
+// import sandwichImg from "../../assets/menu_new/sandwich.jpeg";
+// import snacksImg from "../../assets/menu_new/snacks.jpeg";
+// import snackSetsImg from "../../assets/menu_new/snack-set.jpeg";
+// import tequilaImg from "../../assets/menu_new/Tequila.jpeg";
+// import liquorImg from "../../assets/menu_new/liquor.jpeg";
+// import aperitifImg from "../../assets/menu_new/aperitif.jpeg";
+// import ginImg from "../../assets/menu_new/gin.jpeg";
+// import vodkaImg from "../../assets/menu_new/vodka.jpeg";
+// import vermouthImg from "../../assets/menu_new/vermouth.jpeg";
+// import whiskeyImg from "../../assets/menu_new/whiskey.jpeg";
+// import rumImg from "../../assets/menu_new/rum.jpeg";
+// import wineImg from "../../assets/menu_new/wine.jpeg";
+// import cocktailsImg from "../../assets/menu_new/cocktails.jpeg";
+// import shotsImg from "../../assets/menu_new/shots.jpeg";
+// import shotSetsImg from "../../assets/menu_new/shot_sets.jpeg";
+// import nonAlcoholicImg from "../../assets/menu_new/non_alcoholic_drinks.jpeg";
+// import jackDanielsImg from "../../assets/menu_new/jack_daniel_cocktails.jpeg";
+// import beersImg from "../../assets/menu_new/beers.jpeg";
+// import softDrinksImg from "../../assets/menu_new/soft_drinks.jpeg";
+// import saladsImg from "../../assets/menu_new/salads.jpeg";
+// import bruschettasImg from "../../assets/menu_new/bruschetta.jpeg";
+// import freshAdditionsImg from "../../assets/menu_new/fresh_additions.jpeg";
 
 const Menu = () => {
   const navigate = useNavigate();
@@ -14,7 +38,7 @@ const Menu = () => {
 
         {/* FOODS */}
         <h2 id="foods">FOODS</h2>
-        <div className="pages-menu">
+        <div className="pages-menu" style={{ backgroundImage: `url(${burgersImg})` }}>
           <button className="pages-item burgers" onClick={() => navigate("/items/Burgers")}>
             <div className="page-blur"><h3>Burgers</h3></div>
           </button>
