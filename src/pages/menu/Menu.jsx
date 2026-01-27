@@ -1,7 +1,6 @@
 
 import { useNavigate } from "react-router-dom";
 import './menu.css';
-import burgersImg from '/public/menu_new/burgers.jpeg';
 
 const Menu = () => {
   const navigate = useNavigate();
@@ -16,7 +15,7 @@ const Menu = () => {
         {/* FOODS */}
         <h2 id="foods">FOODS</h2>
         <div className="pages-menu">
-          <button className="pages-item burgers" onClick={() => navigate("/items/Burgers")}  style={{ backgroundImage: `url(${burgersImg})` }}>
+          <button className="pages-item burgers" onClick={() => navigate("/items/Burgers")}>
             <div className="page-blur"><h3>Burgers</h3></div>
           </button>
 
