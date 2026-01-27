@@ -135,7 +135,7 @@
 }
 
 /* Arka plan görselleri */
-.burgers { background: url("/menu_new/burgers.jpeg") center/cover no-repeat; border-radius: 15px; }
+.burgers { background: url("/public/menu_new/burgers.jpeg") center/cover no-repeat; border-radius: 15px; }
 .sandwich { background: url("/menu_new/sandwich.jpeg") center/cover no-repeat; border-radius: 15px; }
 .snacks { background: url("/menu_new/snacks.jpeg") center/cover no-repeat; border-radius: 15px; }
 .snack-sets { background: url("/menu_new/snack-set.jpeg") center/cover no-repeat; border-radius: 15px; }
