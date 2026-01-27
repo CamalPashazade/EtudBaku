@@ -13,12 +13,17 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/effect-fade';
 import 'swiper/css/effect-creative';
 
+import menu1 from '../../assets/menu_new/burgers.jpeg';
+import menu2 from '../../assets/menu_new/sandwich.jpeg';
+import menu3 from '../../assets/menu_new/snacks.jpeg';
+import menu4 from '../../assets/menu_new/snack-set.jpeg';
+
 
 const swiperimages = [
-  { id: 1, img: '/menu/etud-big-burger-etud-cafe-and-bar4.avif' },
-  { id: 2, img: '/menu/etudbaku-music-food-drinks1.jpg' },
-  { id: 3, img: '/menu/etudbaku-music-food-drinks2.jpg' },
-  { id: 4, img: '/menu/etudbaku-music-food-drinks3.jpg' },
+  { id: 1, img: menu1 },
+  { id: 2, img: menu2 },
+  { id: 3, img: menu3 },
+  { id: 4, img: menu4 },
 ];
 
 
