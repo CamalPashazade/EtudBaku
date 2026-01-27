@@ -33,7 +33,7 @@ import Beers from './pages/items/Beers';
 import SoftDrinks from './pages/items/SoftDrinks';
 import Salads from './pages/items/Salads';
 import Bruschettas from './pages/items/Bruschettas';
-import FreshAdditions from './pages/items/FreshAdditions';
+import FreshAdditions from './pages/items/FreshAdditions_temp';
 
 function App() {
   return (
