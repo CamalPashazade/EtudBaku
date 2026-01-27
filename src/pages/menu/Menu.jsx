@@ -1,7 +1,7 @@
 
 import { useNavigate } from "react-router-dom";
 import './menu.css';
-import burgersImg from '../../menu_new/burgers.jpeg';
+import burgersImg from '../../../public/menu_new/burgers.jpeg';
 
 const Menu = () => {
   const navigate = useNavigate();
