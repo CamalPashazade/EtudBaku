@@ -18,6 +18,10 @@ import menu2 from '../../assets/menu_new/sandwich.jpeg';
 import menu3 from '../../assets/menu_new/snacks.jpeg';
 import menu4 from '../../assets/menu_new/snack-set.jpeg';
 
+import about1 from '../../assets/about/about_1.jpg';
+import about2 from '../../assets/about/about_2.jpeg';
+
+
 
 const swiperimages = [
   { id: 1, img: menu1 },
@@ -27,19 +31,21 @@ const swiperimages = [
 ];
 
 
+
+
 const images = [
   { id: 1, img: '/menu/etud-big-burger-etud-cafe-and-bar4.avif' },
   { id: 2, img: '/menu/etudbaku-music-food-drinks1.jpg' },
   { id: 3, img: '/menu/etudbaku-music-food-drinks2.jpg' },
-  // { id: 4, img: '/menu/etudbaku-music-food-drinks3.jpg' },
+  { id: 4, img: '/menu/etudbaku-music-food-drinks3.jpg' },
 ];
 
 
 
 
 const about = [
-  { id: 1, title: "Live Music at ETUD", text: "Jazz is our foundation – but it doesn’t stop there. At ETUD, we host an evolving lineup of live performances, from classic jazz to funk, soul, groove, rock, and experimental nights. Our musicians are some of the most respected players in the country – and when they take the stage, the room listens.", img: '/about/about_1.jpg' },
-  { id: 2, title: "Weekly Highlights:", text: "Tuesdays & Wednesdays – Jazz sessions with rotating artists Fridays & Saturdays – Live bands & genre nights Special Events – Debut shows, tribute nights & surprise guests Every set is live. Every moment is real.", img: '/about/about_2.jpeg' },
+  { id: 1, title: "Live Music at ETUD", text: "Jazz is our foundation – but it doesn’t stop there. At ETUD, we host an evolving lineup of live performances, from classic jazz to funk, soul, groove, rock, and experimental nights. Our musicians are some of the most respected players in the country – and when they take the stage, the room listens.",   img: about1 },
+  { id: 2, title: "Weekly Highlights:", text: "Tuesdays & Wednesdays – Jazz sessions with rotating artists Fridays & Saturdays – Live bands & genre nights Special Events – Debut shows, tribute nights & surprise guests Every set is live. Every moment is real.", img: about2 },
 
 ];
 
