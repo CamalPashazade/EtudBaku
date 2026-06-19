@@ -119,6 +119,14 @@
 }
 
 @media (max-width: 480px) {
+
+    .main-menu
+    {
+
+  padding: 0px;
+
+
+    }
     .pages h2 {
         font-size: 18px;
     }

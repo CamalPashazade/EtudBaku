@@ -26,6 +26,7 @@
   flex-direction: column;
   display: flex;
   color: white;
+  
 }
 
 
@@ -71,22 +72,49 @@
 
 
 
+@media only screen and (min-width: 768px) 
+{
+    .info {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  
+
+  }
+
+  .map
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: white;
+}
+}
+
+
+
 @media (max-width: 576px) {
 
   .location {
     height: auto; /* 100vh əvəzinə */
     padding-bottom: 40px; /* altda bir az boşluq */
+    margin-top: 10px;
+       
   
   }
 
-  .mediaQuery {
-    flex-direction: column;
-  }
+  /* .mediaQuery { */
+    /* flex-direction: column; */
+  /* } */
 
   .info {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+   
+
   }
 
   .info h1

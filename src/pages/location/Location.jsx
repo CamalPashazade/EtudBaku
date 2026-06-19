@@ -11,7 +11,7 @@ const Location = () => {
   return (
     <div className={styles.location}>
 
-      <Container className={styles.mediaQuery}>
+      {/* <section className={styles.mediaQuery}> */}
 
 
         <div className={styles.info}>
@@ -71,7 +71,7 @@ const Location = () => {
 
 
 
-      </Container>
+      {/* </section> */}
 
 
     </div>
