@@ -28,10 +28,11 @@
   display: none !important;
 }
 .customVideo {
-position: relative;
+/* position: relative; */
   width: 100vw;   /* viewport-un tam eni */
-  height: 100vh;  /* viewport-un tam hündürlüyü */
+  height: auto;  /* viewport-un tam hündürlüyü */
   overflow: hidden;
+  background-color: red;
 
  
 }
@@ -219,7 +220,8 @@ position: relative;
 
   .customVideo {
 
-  height: 70vh;  
+  /* height: 100vh;   */
+  /* background-color: red; */
 
 }
 
