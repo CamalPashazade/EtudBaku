@@ -20,7 +20,8 @@ assets/images/*
 public/home/
 public/logo/*
 !public/logo/logo.png
-public/menu/
+public/menu/*
+!public/menu/etudpdf77kb.pdf
 public/menu_new/
 
 # Editor files
