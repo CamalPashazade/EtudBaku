@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function Qr() {
   useEffect(() => {
-    window.location.href = "/menupdf/etudmenu.pdf";
+    window.location.href = "/menu/etudpdf77kb.pdf";
   }, []);
 
   return (
