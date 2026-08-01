@@ -34,6 +34,7 @@ import SoftDrinks from './pages/items/SoftDrinks';
 import Salads from './pages/items/Salads';
 import Bruschettas from './pages/items/Bruschettas';
 import FreshAdditions from './pages/items/FreshAdditions_temp';
+import Qr from './pages/qr/Qr';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/location" element={<Location />} />
         <Route path="/contact" element={<Contact />} />
+         <Route path="/qr" element={<Qr/>} />
         <Route path="/delivery" element={<Delivery />} />
 
         {/* Item səhifələri */}
